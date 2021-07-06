@@ -1,0 +1,47 @@
+https://codepen.io/CvDennis/pen/MWmyWzV?editors=1100
+
+ 1. What is Semantic HTML? 
+    2. What is HTML used for? to display data in a graphical form
+    3. What is an attribute and where do we put it? information we don't want on the page (a link)
+    4. What is the h1 tag used for? How many times should I use it on a page? Header 1, main header, etc. Once
+    5. Name two tags that have required attributes: <a>, <img>
+    6. What do we put in the head of our HTML document? header
+    7. What is an id? one unique element
+    8. What elements can I add an id to? any technically, probably save for more important stuff
+    9. How many times can I use the same id on a page? once
+    10. What is a class? specific element in a group
+    11. What elements can I add a class to? any
+    12. How many times can I use the same class on a page? as many as you want
+    13. How do I get my link to open in a new tab? target="blank"
+    14. What is the alt attribute in the image tag used for? alternate name
+    15. How do I reference an id? #
+    16. What is the difference between a section and a div? Div is a large group, sections is a small group, usually in the DIV
+    17. What is CSS used for? styling the html - makes it pretty.
+    18. How to we select an element? Example - every h2 on the page: type it out. for every h2, call it in the css h2 {}
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one: id is one unique thing, class is a group of things (class = .awesome, id = #caitlyn)
+    20. How do we select classes in CSS? leading . (.awesome)
+    21. How do we select a p element with a single class of “human””? p .human {}
+    22. What is a parent child selector? When would this be useful? selects all elements that are a child to the specified element. needing to change something under one section at a time
+    23. How do you select all links within a div with the class of sidebar? .href {}
+    24. What is a pseudo selector? selects elements in a specific state
+    25. What do we use the change the spacing between lines? line-height
+    26. What do we use to change the spacing between letters? letter-spacing
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize? text-transform
+    28. How do I add a 1px border around my div that is dotted and black? border: dotted 1px solid black;
+    29. How do I select everything on the page? *
+    30. How do I write a comment in CSS? /* words */
+    31. How do I find out what file I am in, when I am using the command line? pwd
+    32. Using the command line - how do I see a list of files/folders in my current folder? ls
+    33. How do I remove a file via the command line? Why do I have to be careful with this? rm -r (no prompt before doing it, it just yeets your file)
+    34. Why should I use version control? incredibly versatile and you can work with almost any program
+    35. How often should I commit to github? every 20 minutes, or you get something working correctly
+    36. What is the command we would use to push our repo up to github? git push -u origin
+    37. Walk me through Lambda's git flow. fork project, clone/download, open terminal (cd desktop, cd file of project, git clone, cd project, git checkout -b, git add. & git commit -b, git push, pull request)
+
+Stretch Questions
+
+    1. What is the difference between an inline element and a block element? block starts a new line, in-line does not
+    2. What happens when an element is positioned absolutely? positioned nearest ancestor/document body
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? margins, padding
+    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default: div, nav, p. a, span. any inline, but you can set height and width
+        5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? margins, borders, padding and content. CSS lets us break each section of HTML down and give it very specific instructions to follow.
